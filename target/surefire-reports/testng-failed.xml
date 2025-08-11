@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suites]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Maveric.testComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)" verbose="0">
+    <classes>
+      <class name="Maveric.testCases.SubmitOrderTestCase">
+        <methods>
+          <include name="ordersValidationTest"/>
+          <include name="closure"/>
+          <include name="launchApplication"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maveric.testCases.SubmitOrderTestCase -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="Maveric.testCases.ErrorValidationsTest">
+        <methods>
+          <include name="LoginErrorchecking"/>
+          <include name="productErrorValidation"/>
+          <include name="closure"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Maveric.testCases.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suites] -->

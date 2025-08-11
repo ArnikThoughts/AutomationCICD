@@ -1,0 +1,9 @@
+Maveric\testComponents\BaseTest.class
+Maveric\testComponents\TestRetry.class
+Maveric\testComponents\Listeners.class
+Maveric\testCases\ErrorValidationsTest.class
+Maveric\testCases\SubmitOrderTestCase.class
+Maveric\data\DataReader.class
+Maveric\testCases\StandAloneCase.class
+Maveric\testComponents\BaseTest$1.class
+Maveric\data\DataReader$1.class

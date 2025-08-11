@@ -1,0 +1,8 @@
+Maveric\pageObject\MyCartPage.class
+Maveric\pageObject\OrderPage.class
+Maveric\pageObject\Landing.class
+Maveric\pageObject\ConfirmationPage.class
+Maveric\AbstructComponents\AbstructComponents.class
+Maveric\pageObject\ProductCatalog.class
+Maveric\resources\ExtentReportsNG.class
+Maveric\pageObject\CheckOutPage.class
