@@ -22,7 +22,7 @@ public static void main(String[] args) throws InterruptedException {
 	String ptd="ZARA COAT 3";
 	WebDriver driver = new ChromeDriver();
 	//Login
-	
+	//Just checking purpose of cide push
 	driver.get("https://rahulshettyacademy.com/client");
 	driver.findElement(By.id("userEmail")).sendKeys("minaranisen@gmail.com");
 	driver.findElement(By.id("userPassword")).sendKeys("Minaranisen#1");
